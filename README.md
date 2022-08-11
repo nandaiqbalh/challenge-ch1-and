@@ -1,4 +1,6 @@
-# challenge-ch1-and
+# MSIB Binar Academy - Android Engineering
+
+## challenge-ch1-and
 We were asked to create a printing program of various shapes and patterns using the Kotlin language, and implement control flow, function & method, and the concept of object oriented programming.
 
 ## demo
