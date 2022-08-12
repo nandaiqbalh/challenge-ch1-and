@@ -29,24 +29,29 @@ open class Bintang {
     }
 
     fun cetakBelahKetupat(rows: Int){
-        for(i in 0 until  rows){
-            for(j in 0 until rows - i){
-                print(" ") // puncak tengah
-            }
-            for(k in 0 until i + 1){
-                print("* ") //  cetak bintang
-            }
-            println("") // kasih enter
-        }
-        for (i in 0 until rows){
-            for (j in 0 until  i){
+
+        for (i in 1 until rows) {
+            for (j in rows - 1 downTo i) {
                 print(" ")
             }
-
-            for (j in 0 until rows - i){
-                print(" *")
+            for (k in 1..i) {
+                print("*")
             }
-
+            for (l in 1 until i) {
+                print("*")
+            }
+            println()
+        }
+        for (i in 1..rows) {
+            for (j in 1 until i) {
+                print(" ")
+            }
+            for (z in rows downTo i) {
+                print("*")
+            }
+            for (k in rows - 1 downTo i) {
+                print("*")
+            }
             println("")
         }
     }
