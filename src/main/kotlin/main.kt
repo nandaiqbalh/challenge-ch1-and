@@ -79,6 +79,7 @@ private fun mainProgram() {
         } else if (pilihanUser == "4") {
             // Plus Bintang
             val bintangPlus = BintangBentukPlus()
+            bintangPlus.sayHello("Bintang Plus")
 
             println("PLUS STARS")
             print("Masukkan jumlah baris dari bentuk: ")

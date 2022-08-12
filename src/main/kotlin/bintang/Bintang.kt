@@ -2,6 +2,10 @@ package bintang
 
 open class Bintang {
 
+    fun sayHello(bentuk: String){
+        println("Halo user, kamu mencetak $bentuk!")
+    }
+
     open fun cetak(rows: Int){
         for(i in 0 until  rows){
             for(j in 0 until rows - i){
