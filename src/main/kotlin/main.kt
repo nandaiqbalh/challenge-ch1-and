@@ -78,7 +78,8 @@ private fun mainProgram() {
 
         } else if (pilihanUser == "4") {
             // Plus Bintang
-            val bintangPlus = BintangBentukPlus()
+            val bintangPlus = BintangBentukPlus() // create objet
+            bintangPlus.sayHello("Bintang Plus") // inherit from parent class
 
             println("PLUS STARS")
             print("Masukkan jumlah baris dari bentuk: ")
