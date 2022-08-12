@@ -5,38 +5,38 @@ open class Bintang {
     open fun cetak(rows: Int){
         for(i in 0 until  rows){
             for(j in 0 until rows - i){
-                print(" ")
+                print(" ") // untuk membuat puncaknya di tengah
             }
             for(k in 0 until i + 1){
-                print("* ")
+                print("* ") // untuk cetak bintang
             }
-            println("")
+            println("") // untuk kasih enter
         }
     }
 
     fun cetakBentukTerbalik(rows: Int){
         for (i in 0 until rows){
             for (j in 0 until  i){
-                print(" ")
+                print(" ") // untuk membuat puncaknya di tengah
             }
 
             for (j in 0 until rows - i){
-                print("* ")
+                print("* ") // untuk cetak bintang
             }
 
-            println("")
+            println("") // untuk kasih enter
         }
     }
 
     fun cetakBelahKetupat(rows: Int){
         for(i in 0 until  rows){
             for(j in 0 until rows - i){
-                print(" ")
+                print(" ") // puncak tengah
             }
             for(k in 0 until i + 1){
-                print("* ")
+                print("* ") //  cetak bintang
             }
-            println("")
+            println("") // kasih enter
         }
         for (i in 0 until rows){
             for (j in 0 until  i){
